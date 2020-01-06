@@ -1,0 +1,15 @@
+{
+  "name": "yatzy",
+  "version": "1.0.0",
+  "description": "The Yatzy coding kata",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.0.0"
+  }
+}
