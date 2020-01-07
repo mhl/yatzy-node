@@ -1,9 +1,11 @@
 var assert = require("assert");
 
-describe("Array", () => {
-  describe("#indexOf()", () => {
-    it("should return -1 when the value is not present", () => {
-      assert.equal([1, 2, 3].indexOf(4), -1);
+var { scoreDice } = require("./index");
+
+describe("scoreDice", () => {
+    describe("the chance category", () => {
+        it("should return the sum of values on the ", () => {
+            assert.equal(scoreDice("chance", [1,1,3,3,6]), 14);
+        });
     });
-  });
 });
